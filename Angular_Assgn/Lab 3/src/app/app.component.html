@@ -1,0 +1,41 @@
+<div>
+    <h2>Angular with Form</h2>
+
+    <p>Product ID: <input type="text" ng-model="ProductID" style="margin-left: 40px;"></p>
+    <p>Product Name: <input type="text" ng-model="Name" style="margin-left: 18px;"></p>
+    <p>Product Cost: <input type="text" ng-model="Cost" style="margin-left: 25px;"></p>
+</div>
+
+
+    <tr>
+        <td>Product Online</td>
+        <td><input type="radio" name="Product Online" value="Yes" checked>Yes
+            <input type="radio" name="Product Online" value="No" checked>No
+        </td>
+    </tr>
+    <br>
+
+
+    <tr>
+        <td>Product Category</td>
+        <td><select name="Grocery">
+    <option value="Mobile">Mobile</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Clothes">Clothes</option>
+    </select>
+        </td>
+    </tr>
+
+    <br>
+    <tr>
+        <td>Availabel in Store</td>
+        <td><input type="checkbox" name="Availabel in Store" value="BigBazar" checked>BigBazar
+            <input type="checkbox" name="Availabel in Store" value="D-Mart" checked>D-Mart
+            <input type="checkbox" name="Availabel in Store" value="Reliance" checked>Reliance
+            <input type="checkbox" name="Availabel in Store" value="Megastore" checked>Megastore
+        </td>
+    </tr>
+    <br>
+    <input type="button" name="Add product" value="Add product">
+
+</div>
